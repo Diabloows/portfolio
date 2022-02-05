@@ -4,13 +4,18 @@
     background-color: white;
     display: flex;
 
+    @include mobile{
+        flex-direction: column;
+        align-items: center;
+    }
+
     .left{
         flex: 0.5;
         overflow: hidden;
 
         .imgContainer{
-            width: 600px;
-            height: 600px;
+            width: 900px;
+            height: 900px;
             background-color: $mainColor;
             border-radius: 50%;
             display:flex;
@@ -18,9 +23,17 @@
             justify-content: center;
             float: right;
 
+            @include mobile{
+                align-items: flex-start;
+            }
+
 
             img{
                 height: 90%;
+
+                @include mobile{
+                    height: 45%;
+                }
             }
         }
     }
@@ -37,10 +50,20 @@
             flex-direction: column;
             justify-content: center;
 
+            @include mobile{
+                padding-left: 0;
+                align-items: center;
+
+            }
+
 
             h1{
                 font-size: 60px;
                 margin: 10px 0;
+
+                @include mobile {
+                    font-size: 40px;
+                }
             }
             h2{
                 font-size: 35px;
@@ -48,9 +71,32 @@
             h3{
                 font-size: 30px;
 
+                @include mobile {
+                    font-size: 20px;
+                }
+
                 span{
                     font-size: inherit;
                     color: rgb(12, 106, 230);
+                }
+            }
+
+            h4{
+                margin-top: 10px;
+                font-size: 25px;
+
+                @include mobile {
+                    font-size: 15px;
+                }
+            }
+
+            h5{
+                margin-top: 15px;
+                font-size: 15px;
+
+                @include mobile {
+                    font-size: 13px;
+                    text-align: center;
                 }
             }
         }
@@ -69,6 +115,10 @@
                 100%{
                     opacity: 0;
                 }
+            }
+
+            @include mobile{
+                margin-left: 170px;
             }
         }
     

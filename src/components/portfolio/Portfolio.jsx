@@ -15,19 +15,19 @@ export default function Portfolio() {
                  <h1>Portfolio</h1>
                  <div className="container">
                      <div className="item">
-                         <a href="https://diabloows.github.io/APA-Association-Protection-Animali-re" target="_blank">
+                         <a href="https://diabloows.github.io/APA-Association-Protection-Animali-re" target="_blank" rel="noreferrer">
                              <img alt="" src="images/APA.jpg" />
                              <h3>APA Website HTML CSS</h3>
                          </a>
                      </div>
                      <div className="item">
-                         <a href="https://diabloows.github.io/V3-Tout-ou-Rien" target="_blank">
+                         <a href="https://diabloows.github.io/V3-Tout-ou-Rien" target="_blank" rel="noreferrer">
                              <img alt="" src="images/DICEGAME.jpg" />
                              <h3>Marvel Dice Game JavaScript</h3>
                          </a>
                      </div>
                      <div className="item">
-                         <a href="https://argonautesmc.herokuapp.com" target="_blank">
+                         <a href="https://argonautesmc.herokuapp.com" target="_blank" rel="noreferrer">
                              <img alt="" src="images/ARGONAUTES.jpg" />
                              <h3>Create/Read PHP</h3>
                          </a>

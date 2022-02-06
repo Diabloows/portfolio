@@ -8,7 +8,7 @@
     
 
     .portfolio{
-    margin-top: -900px;
+    margin-top: -50%;
     background-color: #ffffff;
     display: flex;
     flex-direction: column;
@@ -16,6 +16,7 @@
 
     @include mobile{
         margin-top: 0px;
+        
     }
 
 
@@ -42,7 +43,7 @@
         }
 
         .item{
-            width: 380px;
+            width: 300px;
             height: 220px;
             border-radius: 20px;
             border : 1px solid rgb(255, 245, 245);

@@ -33,10 +33,8 @@ export default function Portfolio() {
                          </a>
                      </div>
                      <div className="item">
-                         <a>
                              <img alt="" src="images/under-construction.jpg" />
                              <h3>More Coming </h3>
-                         </a>
                      </div>
                  </div>
 

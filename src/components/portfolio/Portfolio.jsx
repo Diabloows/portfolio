@@ -16,13 +16,13 @@ export default function Portfolio() {
                      </div>
                      <div className="item">
                          <a href="https://diabloows.github.io/V3-Tout-ou-Rien" target="_blank" rel="noreferrer">
-                             <img alt="" src="images/DICEGAME.jpg" />
+                             <img alt="" src="images/DICEGAME2.jpg" />
                              <h3>Marvel Dice Game JavaScript</h3>
                          </a>
                      </div>
                      <div className="item">
                          <a href="https://argonautesmc.herokuapp.com" target="_blank" rel="noreferrer">
-                             <img alt="" src="images/ARGONAUTES.jpg" />
+                             <img alt="" src="images/ARGO2.jpg" />
                              <h3>Create/Read PHP</h3>
                          </a>
                      </div>

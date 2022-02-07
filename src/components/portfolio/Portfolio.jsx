@@ -1,16 +1,10 @@
-
-import Particles from "react-tsparticles"
-import particlesConfig from "./particle-config"
 import "./portfolio.scss"
 
 export default function Portfolio() {
 
-        <Particles params={particlesConfig}></Particles>
-
-
      return (
          <div className="background">
-             <Particles params={particlesConfig}></Particles>
+             
              <div className="portfolio" id="portfolio">
                  <h1>Portfolio</h1>
                  <div className="container">
@@ -34,7 +28,7 @@ export default function Portfolio() {
                      </div>
                      <div className="item">
                              <img alt="" src="images/under-construction.jpg" />
-                             <h3>More Coming </h3>
+                             <h3>More Coming</h3>
                      </div>
                  </div>
 

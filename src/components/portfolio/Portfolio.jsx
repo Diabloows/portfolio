@@ -21,8 +21,8 @@ export default function Portfolio() {
                          </a>
                      </div>
                      <div className="item">
-                         <a>
-                             <img alt="" src="images/ARGONAUTES.jpg" href="https://argonautesmc.herokuapp.com" target="_blank" rel="noreferrer"/>
+                         <a href="https://argonautesmc.herokuapp.com" target="_blank" rel="noreferrer">
+                             <img alt="" src="images/ARGONAUTES.jpg" />
                              <h3>Create/Read PHP</h3>
                          </a>
                      </div>

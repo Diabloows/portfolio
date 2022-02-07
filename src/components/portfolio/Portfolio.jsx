@@ -16,7 +16,7 @@ export default function Portfolio() {
                      </div>
                      <div className="item">
                          <a href="https://diabloows.github.io/V3-Tout-ou-Rien" target="_blank" rel="noreferrer">
-                             <img alt="" src="images/dice3.jpeg" />
+                             <img alt="" src="images/dice4.jpeg" />
                              <h3>Marvel Dice Game JavaScript</h3>
                          </a>
                      </div>
@@ -27,8 +27,10 @@ export default function Portfolio() {
                          </a>
                      </div>
                      <div className="item">
-                             <img alt="" src="images/under-construction.jpg" />
+                         <a>
+                             <img alt="" src="images/underc.jpeg" />
                              <h3>More Coming</h3>
+                         </a>
                      </div>
                  </div>
 

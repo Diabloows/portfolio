@@ -29,7 +29,7 @@ export default function Intro() {
                     <h4>Looking for a Work Study Contract. </h4>
                     <h5>2020 was a big year. I decided to change my life, my work ! So i started to learn Web Dev.</h5>
                     <h5>Today I have the opportunity to integrate the Wild Code School (3rd year).</h5>
-                    <h5>That's why I'm actively looking for a work study contract in Les Landes (40).</h5>
+                    <h5>That's why I'm actively looking for a work study contract.</h5>
                 </div>
                 <a href="#portfolio">
                     <img alt="" src="images/ARROW DOWN.png"/>

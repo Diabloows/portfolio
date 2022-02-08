@@ -110,7 +110,9 @@
                 color:rgb(12, 106, 230);
 
                 @include mobile{
-                    display: none;
+                    
+                    font-size: 10px;
+                    
                 }
             }
         }
